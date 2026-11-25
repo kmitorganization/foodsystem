@@ -198,3 +198,11 @@ pipeline {
         }
     }
 }
+
+sudo apt update
+sudo apt-get install docker.io
+sudo apt install git
+sudo apt install nano
+git clone url
+sudo docker build -t mywebapp .
+sudo docker run -p 8081:8080 mywebapp
